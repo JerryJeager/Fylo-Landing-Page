@@ -6,12 +6,32 @@
 }
 header{
     width: 90%;
-    margin: 0 auto;
+    height: 3rem;
+    margin: 1.6em auto;
     display: flex;
     justify-content: space-between;
-
+    /* border: 2px solid red; */
 }
 .logo{
+    width: 90px;
+}
+nav{
+    justify-self: flex-end;
+    display: flex;
+    justify-content: space-between;
+    width: 11.2rem;
     /* border: 2px solid red; */
-    /* width: 30%; */
+}
+.nav-txt{
+    color: hsl(243, 87%, 12%);
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    font-size: .95rem;
+}
+.nav-link{
+    height: 1.5rem;
+}
+.nav-link:hover{
+    border-bottom: 2px solid hsl(224, 93%, 58%);
+    border-radius: 1px;
 }
