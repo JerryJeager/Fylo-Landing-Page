@@ -96,7 +96,6 @@ input::placeholder{
 }
 .submit{
     background-color: hsl(224, 93%, 58%);
-    /* box-shadow: 0px 5px 2px rgba(0, 0, 0, 4); */
     border-radius: 5px;
     color: hsl(0, 0%, 100%);
     text-align: center;
@@ -106,6 +105,9 @@ input::placeholder{
     font-size: .9rem;
     font-weight: 700;
     font-family: 'Open Sans', sans-serif;
+}
+.shadow-bg{
+    box-shadow: 5px 5px 10px hsl(0, 0%, 90%);
 }
 #about-fylo-section{
     margin-top: 6rem;
@@ -217,4 +219,34 @@ input::placeholder{
     font-weight: 400;
     font-size: .7rem;
     font-family: 'Open Sans', sans-serif;
+}
+#fylo-access-section{
+    background-color:hsl(238, 22%, 44%);
+    padding: 3rem 3rem 5rem 3rem;
+}
+.access-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 16rem;
+}
+.access-txt h2, p{
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: 'Open Sans', sans-serif;
+}
+.access-txt h2{
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}
+.access-txt p{
+    font-weight: 400;
+    font-size: .9rem;
+    line-height: 1.6;
+    color: hsl(240, 75%, 98%);
+}
+.access-form{
+    margin-top: 4rem;
+    width: 13rem;
+    margin: 0 auto;
 }
