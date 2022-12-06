@@ -230,16 +230,16 @@ input::placeholder{
     justify-content: space-between;
     height: 16rem;
 }
-.access-txt h2, p{
+.access-info-text h2, .access-info-text p{
     text-align: center;
     font-size: 1.1rem;
     font-family: 'Open Sans', sans-serif;
 }
-.access-txt h2{
+.access-info-text h2{
     font-weight: 700;
     color: hsl(0, 0%, 100%);
 }
-.access-txt p{
+.access-info-text p{
     font-weight: 400;
     font-size: .9rem;
     line-height: 1.6;
